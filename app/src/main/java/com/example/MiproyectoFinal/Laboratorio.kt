@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.io.Serializable
 
-@Entity
+@Entity("Laboratorio")
 data class Laboratorio(
     val nombre: String = "",
     val ubicacion: String = ""
